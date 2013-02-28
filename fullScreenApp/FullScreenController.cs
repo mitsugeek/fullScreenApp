@@ -7,6 +7,9 @@ namespace fullScreenApp
 	{
 		public FullScreenController ()
 		{
+			UIView view = new UIView (this.View.Frame);
+			view.BackgroundColor = UIColor.White;
+			this.View.AddSubview(view);
 		}
 	}
 }
