@@ -30,7 +30,9 @@ namespace fullScreenApp
 			
 			// If you have defined a root view controller, set it here:
 			// window.RootViewController = myViewController;
-			
+			FullScreenController fullscreenController = new FullScreenController();
+			window.RootViewController = fullscreenController;
+
 			// make the window visible
 			window.MakeKeyAndVisible ();
 			
